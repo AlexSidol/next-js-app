@@ -15,9 +15,9 @@ const Navbar = () => {
   console.log(pathname);
 
   return (
-    <nav>
+    <nav className={styles.nav}>
       <div className={styles.logo}>
-        <Image src="/vercel.svg" width={60} height={60} alt="vercel" />
+        <Image src="/next.svg" width={100} height={60} alt="next" />
       </div>
       <div className={styles.links}>
         {navigation.map(({ id, title, path }) => {
