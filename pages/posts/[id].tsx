@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Heading from "../../components/Heading";
-import PostInfo from "@/components/PostInfo";
+import React from 'react';
+import PostInfo from "../../components/PostInfo";
 
 //створює структуру шляхів? щоб усі файли вже були створені на ресурсі 
 export const getStaticPaths = async () => {

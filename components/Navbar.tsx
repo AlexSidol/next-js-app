@@ -1,3 +1,5 @@
+import { FC } from "react";
+import React from 'react'
 import Link from "next/link";
 import styles from "../styles/Navbar.module.scss";
 import { useRouter } from "next/router";
@@ -9,7 +11,7 @@ const navigation = [
   { id: 3, title: "Contacts", path: "/contacts" },
 ];
 
-const Navbar = () => {
+const Navbar: FC = () => {
   const { pathname } = useRouter();
 
   console.log(pathname);

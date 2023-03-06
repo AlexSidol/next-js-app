@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
+import React from 'react';
 import Head from "next/head";
 import Heading from "../components/Heading";
 import styles from "../styles/404.module.scss";
@@ -21,7 +22,6 @@ const Error = () => {
       <div>
         <Heading text="404" />
         <Heading tag="h2" text="Something is going wrong..." />
-        <h2>Njgskzdjkfdxhvdf sdlf</h2>
       </div>
     </div>
   )

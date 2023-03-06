@@ -1,7 +1,15 @@
+import { FC } from "react";
+import React from 'react';
 import Head from "next/head";
+import { socialType } from "@/types";
+
 import styles from "../styles/Socials.module.scss";
 
-const Socials = ({ socials }) => {
+type socialTypeProps = {
+  socials: socialType,
+}
+
+const Socials: FC <socialTypeProps> = ({ socials }) => {
   if (!socials) {
     return null;
   }
@@ -9,10 +17,6 @@ const Socials = ({ socials }) => {
   return (
     <>
       <Head>
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.0/css/all.css"
-        />
       </Head>
       <ul className={styles.socials}>
         {socials &&

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import React from 'react';
 import Link from "next/link";
 import Heading from "../../components/Heading";
 
@@ -23,7 +24,7 @@ const Posts = ({ posts }) => {
       <Head>
         <title>Posts</title>
       </Head>
-      <Heading text="Posts list:" />
+      <Heading text="Posts list:"/>
       <ul>
         {posts && posts.map(({ id, title }) => (
           <li key={id}>
