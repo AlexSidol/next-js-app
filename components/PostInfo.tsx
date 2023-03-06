@@ -1,6 +1,6 @@
 import { FC } from "react";
 import React from 'react'
-import { postType } from "@/types";
+import { postType } from "../types";
 import Heading from "./Heading";
 
 type postInfoProps = {

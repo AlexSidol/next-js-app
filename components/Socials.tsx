@@ -1,7 +1,7 @@
 import { FC } from "react";
 import React from 'react';
 import Head from "next/head";
-import { socialType } from "@/types";
+import { socialType } from "../types";
 
 import styles from "../styles/Socials.module.scss";
 

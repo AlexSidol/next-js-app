@@ -3,7 +3,7 @@ import React from 'react';
 import { FC } from "react";
 import { GetServerSideProps } from "next";
 import ContactInfo from "../../components/ContactInfo";
-import { contactType } from "@/types";
+import { contactType } from "../../types";
 
 type contactTypeProps = {
   contact: contactType,

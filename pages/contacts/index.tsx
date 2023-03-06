@@ -4,7 +4,7 @@ import { FC } from "react";
 import { GetStaticProps } from "next";
 import Heading from "../../components/Heading";
 import Link from "next/link";
-import { contactType } from "@/types";
+import { contactType } from "../../types";
 
 type contactsTypeProps = {
   contacts: contactType[],
